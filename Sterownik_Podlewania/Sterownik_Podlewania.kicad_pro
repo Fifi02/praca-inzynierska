@@ -564,14 +564,104 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Opis",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -620,27 +710,27 @@
     ],
     [
       "6e956094-fc15-4c8c-a9c0-3072cf96750e",
-      "Moduł_Wyjscia"
+      "Modul_Wyjscia"
     ],
     [
       "35770c0e-1214-4968-b3c8-676b712c9d6d",
-      "Moduł_Wyjscia1"
+      "Modul_Wyjscia1"
     ],
     [
       "aaafd38c-ffc0-4fc7-936b-5b26ec62426f",
-      "Moduł_Wyjscia2"
+      "Modul_Wyjscia2"
     ],
     [
       "76d9d54a-15a3-400e-aaa0-0af773ab885c",
-      "Moduł_Wyjscia3"
+      "Modul_Wyjscia3"
     ],
     [
       "995f053e-6bfd-4935-9460-d34c9e8248bd",
-      "Moduł_Wyjscia4"
+      "Modul_Wyjscia4"
     ],
     [
-      "7d610059-a406-4818-9c08-11007952f325",
-      "Moduł_Wyjscia5"
+      "9a88e80e-3101-4c9e-b6e9-f6fd66520dd2",
+      "Modul_Wyjscia_230V"
     ]
   ],
   "text_variables": {}
