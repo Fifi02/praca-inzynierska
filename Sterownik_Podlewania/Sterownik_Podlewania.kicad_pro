@@ -731,6 +731,34 @@
     [
       "9a88e80e-3101-4c9e-b6e9-f6fd66520dd2",
       "Modul_Wyjscia_230V"
+    ],
+    [
+      "f74fd688-52b9-454a-a8a2-9357f9e49f57",
+      "Przelacznik"
+    ],
+    [
+      "568b4e0a-513a-44c1-8d45-ad0443c3ee4b",
+      "Przelacznik"
+    ],
+    [
+      "568b4e0a-513a-44c1-8d45-ad0443c3ee4b",
+      "Przelacznik"
+    ],
+    [
+      "568b4e0a-513a-44c1-8d45-ad0443c3ee4b",
+      "Przelacznik"
+    ],
+    [
+      "568b4e0a-513a-44c1-8d45-ad0443c3ee4b",
+      "Przelacznik"
+    ],
+    [
+      "568b4e0a-513a-44c1-8d45-ad0443c3ee4b",
+      "Przelacznik"
+    ],
+    [
+      "73dd885a-a6d0-4e55-a40e-d99ff27ab8ee",
+      "zasilanie"
     ]
   ],
   "text_variables": {}

@@ -1757,6 +1757,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "przełącznik dzigniowy SPDT "
+		(exclude_from_sim no)
+		(at 250.19 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://botland.com.pl/przelaczniki-dzwigienkowe/2478-przelacznik-dzwigniowy-on-on-250v-3a-5szt-5904422356361.html")
+		)
+		(uuid "790d85fc-f4d4-4939-a517-0bf153893ef8")
+	)
 	(junction
 		(at 265.43 115.57)
 		(diameter 0)
