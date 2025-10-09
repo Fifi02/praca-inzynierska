@@ -3144,7 +3144,7 @@
 		(uuid "5974646b-3cb0-420d-956a-2a49bf7af85c")
 	)
 	(no_connect
-		(at 269.24 48.26)
+		(at 270.51 48.26)
 		(uuid "5979a4c9-2d3d-4f82-834f-cbf30cac5332")
 	)
 	(no_connect
@@ -3259,16 +3259,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 66.04) (xy 270.51 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fd1212-e731-4840-9e88-8b85a9d41a5d")
-	)
-	(wire
-		(pts
 			(xy 19.05 121.92) (xy 19.05 125.73)
 		)
 		(stroke
@@ -3319,16 +3309,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 190.5 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1625ddd0-41c5-409f-81fe-44d63ee2c781")
-	)
-	(wire
-		(pts
 			(xy 90.17 180.34) (xy 90.17 179.07)
 		)
 		(stroke
@@ -3359,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 269.24 43.18)
+			(xy 252.73 43.18) (xy 270.51 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3419,13 +3399,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 62.23) (xy 255.27 63.5)
+			(xy 251.46 62.23) (xy 251.46 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2cd01bb2-4379-411e-909b-e2e8046a0ebf")
+	)
+	(wire
+		(pts
+			(xy 251.46 68.58) (xy 251.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5b3af9-5853-437f-97ec-f500ab176e8b")
 	)
 	(wire
 		(pts
@@ -3539,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 34.29) (xy 251.46 40.64)
+			(xy 252.73 34.29) (xy 252.73 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3596,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "53ffe0ef-f195-4060-935a-6a7c91436245")
+	)
+	(wire
+		(pts
+			(xy 251.46 66.04) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5541d84e-9568-4d60-80ac-6680cb494577")
 	)
 	(wire
 		(pts
@@ -3726,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "6ba98a28-022d-4afd-b3fb-a7ea9fd0cf6d")
+	)
+	(wire
+		(pts
+			(xy 252.73 43.18) (xy 252.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c929190-228e-4e6c-9cf9-e772b123fdd3")
 	)
 	(wire
 		(pts
@@ -3999,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 40.64) (xy 269.24 40.64)
+			(xy 252.73 40.64) (xy 270.51 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4099,16 +4109,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 48.26) (xy 251.46 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b821a801-3732-443b-903c-c7725bc923d9")
-	)
-	(wire
-		(pts
 			(xy 151.13 175.26) (xy 172.72 175.26)
 		)
 		(stroke
@@ -4116,16 +4116,6 @@
 			(type default)
 		)
 		(uuid "b8261b4a-c361-4b5b-af31-1f123e3524ff")
-	)
-	(wire
-		(pts
-			(xy 196.85 104.14) (xy 190.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba4f1929-d06a-4a51-b328-18342ea63ce1")
 	)
 	(wire
 		(pts
@@ -4169,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 63.5) (xy 270.51 63.5)
+			(xy 251.46 63.5) (xy 270.51 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +4349,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 45.72) (xy 269.24 45.72)
+			(xy 267.97 45.72) (xy 270.51 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4878,7 +4868,7 @@
 		(uuid "e7e493ab-7b2a-4fb7-9097-fceb0ad975e0")
 	)
 	(label "Sekcja 1"
-		(at 266.7 45.72 180)
+		(at 267.97 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4889,7 +4879,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 269.24 38.1 180)
+		(at 270.51 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4899,7 +4889,7 @@
 		)
 		(uuid "0411314e-a897-4e47-b99e-71791bef0e6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.7472 38.1 0)
+			(at 264.0172 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5011,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 269.24 35.56 180)
+		(at 270.51 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5031,7 +5021,7 @@
 		)
 		(uuid "5731fb65-a60e-450f-b33b-b8927ee30616")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.6867 35.56 0)
+			(at 263.9567 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,28 +5198,6 @@
 		(uuid "a97d2e22-75e7-4686-97f8-07174761f527")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.5028 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_230V"
-		(shape input)
-		(at 190.5 92.71 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc7ccdf5-de3f-4281-a487-19910806b540")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 83.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5841,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 255.27 62.23 0)
+		(at 251.46 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5881,7 +5849,7 @@
 		(dnp no)
 		(uuid "2107dc09-ce3d-4c5a-a199-01bfcf7d41d0")
 		(property "Reference" "#PWR06"
-			(at 255.27 66.04 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5858,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 255.27 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 62.23 0)
+			(at 251.46 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 62.23 0)
+			(at 251.46 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 62.23 0)
+			(at 251.46 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,6 +6615,72 @@
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d94908b-4976-4c31-a0c2-5ff2eb3340cf")
+		(property "Reference" "#PWR03"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315b3dca-c373-4d75-96a9-b152626d1074")
+		)
+		(instances
+			(project "Sterownik_Podlewania"
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8231,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 274.32 40.64 0)
+		(at 275.59 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8205,7 +8239,7 @@
 		(dnp no)
 		(uuid "9e3bea12-7d57-42e1-8768-64ced3787a2c")
 		(property "Reference" "J1"
-			(at 256.54 30.48 0)
+			(at 257.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8248,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 256.54 33.02 0)
+			(at 257.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8257,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
-			(at 274.32 40.64 0)
+			(at 275.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 40.64 0)
+			(at 275.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8275,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 274.32 40.64 0)
+			(at 275.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +9124,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 251.46 34.29 0)
+		(at 252.73 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9099,7 +9133,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf781805-66af-49ca-aaac-21dd32c4737d")
 		(property "Reference" "#PWR04"
-			(at 251.46 38.1 0)
+			(at 252.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9142,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 251.46 29.21 0)
+			(at 252.73 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 34.29 0)
+			(at 252.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 34.29 0)
+			(at 252.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +9168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 251.46 34.29 0)
+			(at 252.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,72 +9319,6 @@
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d73302df-9022-44d8-af96-c065885073ae")
-		(property "Reference" "#PWR03"
-			(at 251.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51980ba2-2e84-4add-a9c3-bffa2452a79b")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9793,7 +9761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 66.04 0)
+		(at 251.46 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9802,7 +9770,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed93ac8d-9eab-4a1a-b1d4-cab03621fce2")
 		(property "Reference" "#PWR08"
-			(at 254 72.39 0)
+			(at 251.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +9779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 71.12 0)
+			(at 251.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 66.04 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +9796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 66.04 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 66.04 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10481,16 +10449,6 @@
 		(pin "Vs" input
 			(at 196.85 107.95 180)
 			(uuid "6ccb90b6-57bb-4f05-91bc-82a9d4713f4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "L_230V_IN" input
-			(at 196.85 104.14 180)
-			(uuid "bc5ffc45-d418-4415-b47d-62f0a6e26e2d")
 			(effects
 				(font
 					(size 1.27 1.27)
