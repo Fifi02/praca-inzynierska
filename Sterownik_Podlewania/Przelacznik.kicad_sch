@@ -682,7 +682,7 @@
 	)
 	(text "przełącznik dzigniowy SPDT "
 		(exclude_from_sim no)
-		(at 138.43 87.63 0)
+		(at 138.43 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -692,62 +692,20 @@
 		(uuid "e29f3fd8-734d-4267-b8c8-07ceaeece4f3")
 	)
 	(junction
-		(at 143.51 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ce710b9-2f25-4438-b261-5a2f1e3b198e")
-	)
-	(junction
 		(at 165.1 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97bf4784-1945-491c-8332-f76ebe0aa318")
 	)
 	(junction
-		(at 133.35 99.06)
+		(at 132.08 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b94abbef-6437-4175-9603-e2e1d55812a5")
-	)
-	(junction
-		(at 143.51 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca576821-30f7-43da-bd91-70197b08b7ac")
+		(uuid "e509dcf3-5506-46bc-b071-c5d4d4395538")
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 123.19 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16dbf1ae-b176-4ddd-a8d3-51047f37e197")
-	)
-	(wire
-		(pts
-			(xy 143.51 96.52) (xy 165.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a2df4a5-f408-4e22-aa0e-cf74c8801489")
-	)
-	(wire
-		(pts
-			(xy 143.51 101.6) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f01d289-0668-4dd2-8dbb-6582a748f4bb")
-	)
-	(wire
-		(pts
-			(xy 142.24 101.6) (xy 143.51 101.6)
+			(xy 142.24 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -757,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 133.35 116.84)
+			(xy 132.08 113.03) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -777,13 +735,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 143.51 96.52)
+			(xy 132.08 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "996e7184-f3fc-43cc-967e-911cefd75b5e")
+		(uuid "64c4282d-2e42-41f5-ac62-453dc25bdf30")
 	)
 	(wire
 		(pts
@@ -797,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 133.35 105.41)
+			(xy 132.08 99.06) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -807,7 +765,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 116.84) (xy 165.1 116.84)
+			(xy 132.08 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -834,6 +792,16 @@
 			(type default)
 		)
 		(uuid "d58c255d-ede6-4075-8c8a-9679aac6fb1c")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda48875-d41a-40da-9948-854ffe8b98f4")
 	)
 	(hierarchical_label "stan_przelacznika"
 		(shape output)
@@ -914,27 +882,27 @@
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/35770c0e-1214-4968-b3c8-676b712c9d6d/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "R9")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/76d9d54a-15a3-400e-aaa0-0af773ab885c/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
 					(reference "R26")
 					(unit 1)
 				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
+					(reference "R27")
+					(unit 1)
+				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2/adff730d-5353-4d94-b665-43238fb73228"
-					(reference "R14")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/aaafd38c-ffc0-4fc7-936b-5b26ec62426f/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -950,7 +918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59a447b3-d81a-4f0a-9df7-9a7d334909bc")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR057"
 			(at 165.1 132.08 0)
 			(effects
 				(font
@@ -1000,31 +968,31 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/f74fd688-52b9-454a-a8a2-9357f9e49f57"
-					(reference "#PWR063")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/35770c0e-1214-4968-b3c8-676b712c9d6d/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR065")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR011")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/76d9d54a-15a3-400e-aaa0-0af773ab885c/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR069")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR071")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2/adff730d-5353-4d94-b665-43238fb73228"
-					(reference "#PWR044")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/aaafd38c-ffc0-4fc7-936b-5b26ec62426f/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR067")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1032,7 +1000,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 109.22 0)
+		(at 132.08 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1040,8 +1008,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98787a38-d8a4-4a6f-af2c-b28398f7d379")
-		(property "Reference" "C10"
-			(at 137.16 107.9499 0)
+		(property "Reference" "C1"
+			(at 135.89 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1018,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 137.16 110.4899 0)
+			(at 135.89 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1027,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 134.3152 113.03 0)
+			(at 133.0452 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 109.22 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1045,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 109.22 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,31 +1062,31 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/f74fd688-52b9-454a-a8a2-9357f9e49f57"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/35770c0e-1214-4968-b3c8-676b712c9d6d/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "C11")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/76d9d54a-15a3-400e-aaa0-0af773ab885c/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "C13")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "C14")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2/adff730d-5353-4d94-b665-43238fb73228"
 					(reference "C1")
 					(unit 1)
 				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/35770c0e-1214-4968-b3c8-676b712c9d6d/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/76d9d54a-15a3-400e-aaa0-0af773ab885c/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2/adff730d-5353-4d94-b665-43238fb73228"
+					(reference "C11")
+					(unit 1)
+				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/aaafd38c-ffc0-4fc7-936b-5b26ec62426f/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1134,7 +1102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcdb9632-33e5-46f4-9330-78d80cd85a76")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR056"
 			(at 165.1 77.47 0)
 			(effects
 				(font
@@ -1184,31 +1152,31 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/f74fd688-52b9-454a-a8a2-9357f9e49f57"
-					(reference "#PWR062")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/35770c0e-1214-4968-b3c8-676b712c9d6d/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR064")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR010")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/76d9d54a-15a3-400e-aaa0-0af773ab885c/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR068")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR070")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2/adff730d-5353-4d94-b665-43238fb73228"
-					(reference "#PWR043")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/aaafd38c-ffc0-4fc7-936b-5b26ec62426f/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "#PWR066")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1216,7 +1184,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 138.43 99.06 0)
+		(at 137.16 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1224,8 +1192,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d664607b-cf70-4a85-a3fa-78910de00a6b")
-		(property "Reference" "SW2"
-			(at 138.43 90.17 0)
+		(property "Reference" "SW1"
+			(at 137.16 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1201,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 138.43 92.71 0)
+			(at 137.16 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1209,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 138.43 109.22 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1218,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 138.43 106.68 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1227,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 138.43 99.06 0)
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,31 +1247,31 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/f74fd688-52b9-454a-a8a2-9357f9e49f57"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/35770c0e-1214-4968-b3c8-676b712c9d6d/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "SW4")
-					(unit 1)
-				)
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
 					(reference "SW3")
 					(unit 1)
 				)
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/6e956094-fc15-4c8c-a9c0-3072cf96750e/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
+					(reference "SW2")
+					(unit 1)
+				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/76d9d54a-15a3-400e-aaa0-0af773ab885c/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/995f053e-6bfd-4935-9460-d34c9e8248bd/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2/adff730d-5353-4d94-b665-43238fb73228"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/aaafd38c-ffc0-4fc7-936b-5b26ec62426f/568b4e0a-513a-44c1-8d45-ad0443c3ee4b"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)

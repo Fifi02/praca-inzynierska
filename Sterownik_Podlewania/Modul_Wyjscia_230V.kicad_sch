@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c8d91fa6-0721-4355-9593-fce677995c07")
 	(paper "A4")
+	(title_block
+		(title "Sterownik podlewania V1.1")
+		(date "2025-10-09")
+		(comment 1 "Praca inżynierska ")
+		(comment 2 "Filip Gajewski")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -502,179 +508,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
+		(symbol "Relay_SolidState:HHG1D-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WT"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WT_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Relay:SANYOU_SRD_Form_C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -682,8 +521,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SANYOU_SRD_Form_C"
-				(at 11.43 1.27 0)
+			(property "Value" "HHG1D-1"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -691,8 +530,19 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-				(at 11.43 -1.27 0)
+			(property "Footprint" "Relay_THT:Relay_NCR_HHG1D-1"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ncr.hk/uploads/Relays/Solid_State_Relays/HHG1D-1.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -701,7 +551,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(property "Description" "NCR zero cross solid state relay 1A, 2A, 3A, 4A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -710,7 +560,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(property "ki_keywords" "ssr"
 				(at 0 0 0)
 				(effects
 					(font
@@ -719,7 +569,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_fp_filters" "Relay*HHG1D*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -728,33 +578,55 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SANYOU_SRD_Form_C_0_0"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SANYOU_SRD_Form_C_0_1"
+			(symbol "HHG1D-1_0_0"
 				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
+					(start -0.381 -2.032)
+					(end 1.397 -3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.635) (xy 1.016 -1.016) (xy 1.016 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ZCD"
+					(at 0.508 -2.54 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "HHG1D-1_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -763,32 +635,9 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -800,7 +649,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -812,10 +661,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0) (xy -1.27 0)
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -824,10 +673,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0 0)
+						(xy -1.143 0.508) (xy 0.127 0.508) (xy -0.254 0.381) (xy -0.254 0.635) (xy 0.127 0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -836,10 +685,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0) (xy 1.27 0)
+						(xy -1.143 -0.508) (xy 0.127 -0.508) (xy -0.254 -0.635) (xy -0.254 -0.381) (xy 0.127 -0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -848,10 +697,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 2.54 0)
+						(xy 0.889 -0.635) (xy 3.683 -0.635) (xy 3.048 0.635) (xy 2.413 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -860,10 +709,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 3.81 0)
+						(xy 1.524 -0.635) (xy 1.524 0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -872,10 +721,21 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
+						(xy 2.286 2.54) (xy 0.508 2.54) (xy 0.508 -2.032)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -884,7 +744,54 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
+						(xy 2.286 0.635) (xy 2.286 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.635) (xy 2.286 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0.635) (xy 3.048 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 0.635) (xy 0.889 0.635) (xy 1.524 -0.635) (xy 2.159 0.635)
 					)
 					(stroke
 						(width 0)
@@ -895,21 +802,9 @@
 					)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_1_1"
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "HHG1D-1_1_1"
 				(pin passive line
-					(at -5.08 7.62 270)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -918,7 +813,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -927,25 +822,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -963,7 +840,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 90)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -981,178 +858,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 270)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC547"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC547"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC547_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC547_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,42 +868,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1308,47 +980,51 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 166.37 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17104f43-99a3-43f8-9178-84f5d6a0a303")
+	(text "Vs - sygnał z esp załączający daną sekcję (podniesiony do 5V przez konwerter)\nWł/WYł - stan przełącznika (obsługa manualna)\n"
+		(exclude_from_sim no)
+		(at 95.25 27.94 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1e8b71cb-204e-4eb9-b082-7949d18c9fe2")
 	)
-	(junction
-		(at 113.03 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a00d5d0-5876-4cd2-93db-cc116cf02cc0")
+	(text "dokumentacja\n"
+		(exclude_from_sim no)
+		(at 91.44 102.87 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(href "https://www.openhacks.com/uploadsproductos/g3mb-ssr-datasheet.pdf")
+		)
+		(uuid "1f9ec204-4c60-4c3a-aa08-33df1580f16c")
 	)
-	(junction
-		(at 113.03 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c9ec82b-50a3-4dc6-8858-a38c89b5a6f6")
+	(text "link"
+		(exclude_from_sim no)
+		(at 93.98 93.98 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(href "https://sklep.msalamon.pl/produkt/przekaznik-polprzewodnikowy-ssr-g3mb-202p-5v/?srsltid=AfmBOop8qL_BNXoS76hWOXQgts0XQpiYvfqA9CokBBRe6eHc-sLc2kdP")
+		)
+		(uuid "4c853cc5-80a4-40da-adf4-de7b2e17ff2e")
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 123.19 115.57)
+			(xy 107.95 52.07) (xy 107.95 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cf560c4-65f6-4cf7-866b-62921ae6c498")
+		(uuid "1de5bd5a-3ac8-4275-90b4-46584cebca4d")
 	)
 	(wire
 		(pts
-			(xy 207.01 101.6) (xy 215.9 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef99a6f-b577-4688-ac8b-60aba0b3eb03")
-	)
-	(wire
-		(pts
-			(xy 166.37 91.44) (xy 166.37 113.03)
+			(xy 166.37 95.25) (xy 166.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1358,27 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 116.84) (xy 90.17 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc5fb48-81e8-45fb-b848-44303da71f02")
-	)
-	(wire
-		(pts
-			(xy 113.03 96.52) (xy 113.03 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495b5120-8278-4a16-ab87-c1220d201341")
-	)
-	(wire
-		(pts
-			(xy 125.73 58.42) (xy 125.73 81.28)
+			(xy 123.19 59.69) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1388,47 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 113.03 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "537588a8-3ba4-49c2-9d9d-48db06d076f5")
-	)
-	(wire
-		(pts
-			(xy 93.98 83.82) (xy 93.98 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0cfa48-0c0b-4d29-a462-d5e0e9ddacef")
-	)
-	(wire
-		(pts
-			(xy 113.03 53.34) (xy 113.03 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63bda11e-fba1-43dc-9086-2975677ce029")
-	)
-	(wire
-		(pts
-			(xy 166.37 140.97) (xy 166.37 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fdb6c5-859a-4f0e-818b-2f1c0bbc8611")
-	)
-	(wire
-		(pts
-			(xy 166.37 50.8) (xy 166.37 83.82)
+			(xy 166.37 54.61) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1438,27 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 105.41 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e42e1fe-5195-4324-97ab-0666b3ac5b97")
-	)
-	(wire
-		(pts
-			(xy 113.03 121.92) (xy 113.03 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a245446c-fff9-46d7-8f70-cf8d37cc3487")
-	)
-	(wire
-		(pts
-			(xy 166.37 120.65) (xy 166.37 137.16)
+			(xy 166.37 124.46) (xy 166.37 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1468,37 +1064,27 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 74.93) (xy 113.03 81.28)
+			(xy 210.82 76.2) (xy 220.98 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c123bdef-7cd5-4d64-845d-9640775c3b70")
+		(uuid "d2c07f7e-4272-47c6-a22d-15e8efdbdfd9")
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 93.98 100.33)
+			(xy 123.19 96.52) (xy 123.19 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3b78fdc-3104-4fbf-af20-0db4cd7ee483")
+		(uuid "e6cc0c25-40f4-4e36-8eea-e90af3e845c4")
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 113.03 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92ba54d-b20f-40a8-9b90-9a2a0e687c33")
-	)
-	(wire
-		(pts
-			(xy 123.19 118.11) (xy 123.19 135.89)
+			(xy 123.19 121.92) (xy 123.19 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1508,39 +1094,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 113.03 111.76)
+			(xy 107.95 96.52) (xy 107.95 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdd3fd4f-26d4-44b8-965e-db9470f377c9")
-	)
-	(global_label "Vcc"
-		(shape input)
-		(at 113.03 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a351e815-0ca0-49fe-a6a7-470eadb44bfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 47.089 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "f0d08ee0-09ad-452b-b21f-27940e2dffe3")
 	)
 	(hierarchical_label "Vs"
 		(shape input)
-		(at 166.37 50.8 90)
+		(at 166.37 54.61 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1551,7 +1115,7 @@
 	)
 	(hierarchical_label "L_230V_IN"
 		(shape input)
-		(at 125.73 58.42 90)
+		(at 123.19 59.69 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1561,8 +1125,8 @@
 		(uuid "7ba1bf01-99ce-4995-8420-c9e42dd79773")
 	)
 	(hierarchical_label "WŁ{slash}WYŁ"
-		(shape input)
-		(at 207.01 101.6 180)
+		(shape output)
+		(at 210.82 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1573,103 +1137,27 @@
 	)
 	(hierarchical_label "Vs"
 		(shape input)
-		(at 77.47 116.84 180)
+		(at 107.95 52.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bab9f704-5e08-4a82-be2d-465f3f60452a")
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 110.49 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "003ea373-4904-4883-ad74-67e2ecfc552a")
-		(property "Reference" "Q3"
-			(at 115.57 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 115.57 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 115.57 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83618c25-25ae-43bd-86a4-02511ecde52f")
-		)
-		(pin "1"
-			(uuid "798469ee-07a8-45e4-bd6d-d94faabfdc17")
-		)
-		(pin "3"
-			(uuid "f86150da-8150-4410-b32d-b00ef81766ad")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 123.19 135.89 0)
+		(at 107.95 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f62b9bd-6f05-4d49-8184-43747db1965a")
-		(property "Reference" "#PWR045"
-			(at 123.19 142.24 0)
+		(uuid "28225c3b-4613-49c2-8447-df0f6b0f53ec")
+		(property "Reference" "#PWR055"
+			(at 107.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,8 +1165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "N_230V"
-			(at 123.19 140.97 0)
+		(property "Value" "GND"
+			(at 107.95 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 135.89 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 135.89 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1192,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 135.89 0)
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ea3f98b-50af-4a75-83f9-6ff8c5530bac")
+		)
+		(instances
+			(project "Sterownik_Podlewania"
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f62b9bd-6f05-4d49-8184-43747db1965a")
+		(property "Reference" "#PWR054"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "N_230V"
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1272,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "#PWR045")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1726,7 +1280,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 116.84 0)
+		(at 166.37 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1734,8 +1288,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d584c1d-3673-4f3f-b0b5-35cd9b64a462")
-		(property "Reference" "R13"
-			(at 168.91 115.5699 0)
+		(property "Reference" "R21"
+			(at 168.91 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,8 +1297,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 168.91 118.1099 0)
+		(property "Value" "130"
+			(at 168.91 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1307,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 164.592 116.84 90)
+			(at 164.592 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 116.84 0)
+			(at 166.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1325,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 116.84 0)
+			(at 166.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,73 +1342,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d1b0b92-b212-4814-a273-fe9c36baad94")
-		(property "Reference" "#PWR012"
-			(at 113.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e255222-d18a-4b43-8953-c3bcc50942c2")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "#PWR012")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1862,7 +1350,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 128.27 115.57 0)
+		(at 128.27 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1870,8 +1358,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f0f9e4-28e4-4fca-b963-497b2e712480")
-		(property "Reference" "J1"
-			(at 130.81 115.5699 0)
+		(property "Reference" "J14"
+			(at 130.81 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1368,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 130.81 118.1099 0)
+			(at 130.81 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1377,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 128.27 115.57 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 115.57 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1395,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 128.27 115.57 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1412,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "J1")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1932,7 +1420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 137.16 0)
+		(at 166.37 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,8 +1428,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e74e4fb-1fec-4488-9719-550bbc3dc9d4")
-		(property "Reference" "#PWR035"
-			(at 166.37 143.51 0)
+		(property "Reference" "#PWR053"
+			(at 166.37 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +1438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 142.24 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 137.16 0)
+			(at 166.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 137.16 0)
+			(at 166.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 137.16 0)
+			(at 166.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,87 +1478,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 118.11 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbcbc426-ba07-43e1-90d9-fbb22439715d")
-		(property "Reference" "K3"
-			(at 129.54 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SANYOU_SRD_Form_C"
-			(at 129.54 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 118.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 118.11 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ee22f1f8-937c-4389-8627-643ac80f4fbd")
-		)
-		(pin "3"
-			(uuid "18ad5af4-d04b-4976-b434-f48965e444f6")
-		)
-		(pin "5"
-			(uuid "187d1b02-ecfd-4a51-9ac2-4d74694dd359")
-		)
-		(pin "1"
-			(uuid "acb88a34-f979-4051-acfa-8e185469cd14")
-		)
-		(pin "2"
-			(uuid "786b8d00-b537-4e79-ab69-066eba69e67f")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "K3")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2078,7 +1486,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 166.37 87.63 90)
+		(at 166.37 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2086,8 +1494,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c32f656a-74db-48c9-b141-0f0546339d8a")
-		(property "Reference" "D15"
-			(at 170.18 87.9474 90)
+		(property "Reference" "D18"
+			(at 170.18 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +1504,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 170.18 90.4874 90)
+			(at 170.18 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +1513,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 166.37 87.63 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +1522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 87.63 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +1531,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 166.37 87.63 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +1540,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 166.37 87.63 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,78 +1557,61 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "D15")
+					(reference "D18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 93.98 87.63 270)
+		(lib_id "Relay_SolidState:HHG1D-1")
+		(at 115.57 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd47ee64-816b-462e-92f4-d1d288707ac3")
-		(property "Reference" "D9"
-			(at 96.52 86.3599 90)
+		(uuid "dc5f833a-0c6a-4365-a91d-a599ff067374")
+		(property "Reference" "U2"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HHG1D-1"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_NCR_HHG1D-1"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ncr.hk/uploads/Relays/Solid_State_Relays/HHG1D-1.pdf"
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 96.52 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 89.535 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 87.63 0)
+		(property "Description" "NCR zero cross solid state relay 1A, 2A, 3A, 4A"
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,90 +1620,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea78c327-3f2b-4c02-bd5f-adf8e6e631af")
+			(uuid "89e6ad62-613c-4635-aae1-d4dd6493eb90")
+		)
+		(pin "3"
+			(uuid "1aa231ca-d3e5-4941-92d1-3ce2e5422b5c")
+		)
+		(pin "4"
+			(uuid "8f37b192-c558-4aff-9150-db2e6049fd8e")
 		)
 		(pin "1"
-			(uuid "acfd692e-c23b-4e9d-b792-f4cefeb40a57")
+			(uuid "5ef17a2d-bee5-4391-8544-dce1a675c4bc")
 		)
 		(instances
-			(project "Sterownik_Podlewania"
+			(project ""
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 93.98 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1dc2cb8-f651-4ae8-a6a8-f37ecb2ddc67")
-		(property "Reference" "R10"
-			(at 93.98 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 93.98 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 93.98 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d91c111d-e6a8-41ff-a358-ae65c8b160df")
-		)
-		(pin "1"
-			(uuid "8f063df2-6216-46a4-a46e-a40fd9a829fe")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/9a88e80e-3101-4c9e-b6e9-f6fd66520dd2"
-					(reference "R10")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 215.9 90.17)
+		(at 220.98 64.77)
 		(size 27.94 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2324,11 +1653,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 236 44 1.0000)
 		)
 		(uuid "adff730d-5353-4d94-b665-43238fb73228")
 		(property "Sheetname" "Przelacznik"
-			(at 215.9 89.4584 0)
+			(at 220.98 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +1666,7 @@
 			)
 		)
 		(property "Sheetfile" "Przelacznik.kicad_sch"
-			(at 215.9 117.4246 0)
+			(at 220.98 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +1675,7 @@
 			)
 		)
 		(pin "stan_przelacznika" output
-			(at 215.9 101.6 180)
+			(at 220.98 76.2 180)
 			(uuid "157c4964-0eda-42cc-a1bd-62e111fc4b01")
 			(effects
 				(font
