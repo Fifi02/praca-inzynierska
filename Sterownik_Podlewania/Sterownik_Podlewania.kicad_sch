@@ -5322,7 +5322,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 283.2497 81.28) (xy 283.21 165.1) (xy 176.6887 165.1) (xy 176.4903 81.28)
+				(xy 283.2496 92.71) (xy 283.21 165.1) (xy 176.6887 165.1) (xy 176.4902 92.71)
 			)
 			(stroke
 				(width 0)
@@ -6304,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_Harwin:Harwin_M20-89004xx_1x04_P2.54mm_Horizontal"
 			(at 147.32 127 0)
 			(effects
 				(font
@@ -8468,7 +8468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 59.69 36.83 0)
 			(effects
 				(font

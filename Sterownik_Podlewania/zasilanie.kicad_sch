@@ -851,10 +851,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM1085-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -866,7 +863,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1085-3.3"
+			(property "Value" "LD1117S33TR_SOT223"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -875,17 +872,25 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 6.35 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1085.pdf"
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -894,7 +899,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -903,7 +908,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator Fixed 5A Positive"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -912,19 +917,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM1085-3.3_0_1"
+			(symbol "LD1117S33TR_SOT223_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -934,7 +930,7 @@
 					)
 				)
 			)
-			(symbol "LM1085-3.3_1_1"
+			(symbol "LD1117S33TR_SOT223_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2030,6 +2026,50 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "ewentulanie ten"
+		(exclude_from_sim no)
+		(at 156.21 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/vs1hr33mb054000ce0/kondensatory-elektrolityczne-smd/changzhou-huawei-electronic/")
+		)
+		(uuid "06215efd-e404-44a3-ab16-f802aa0c88f5")
+	)
+	(text "TME"
+		(exclude_from_sim no)
+		(at 190.5 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/cc-100n/kondensatory-ceramiczne/sr-passives/")
+		)
+		(uuid "39010350-cd7f-4cc5-97cd-a3f269b9be22")
+	)
+	(text "TME"
+		(exclude_from_sim no)
+		(at 194.31 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/bat46w-dio/diody-schottky-smd/diotec-semiconductor/bat46w/")
+		)
+		(uuid "3de91090-c25f-43ca-897c-720093d6e8f6")
+	)
+	(text "TME"
+		(exclude_from_sim no)
+		(at 151.13 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/jfw-330n_310-p15/kondensatory-foliowe-tht/jb-capacitors/")
+		)
+		(uuid "9b6ccd4c-c484-4f7d-b32e-1b9b3d7b1143")
 	)
 	(text "możlwość wybrania zasilania zaworów \nzasilanie zewnętrzne/zasilanie urządzenia (12V)"
 		(exclude_from_sim no)
@@ -3197,7 +3237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
 			(at 155.9052 66.04 0)
 			(effects
 				(font
@@ -3333,7 +3373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 183.8452 121.92 0)
 			(effects
 				(font
@@ -3771,6 +3811,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
+		(at 171.45 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b4827b7-bd64-4d26-ac1b-26c397129c18")
+		(property "Reference" "U4"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S33TR_SOT223"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 173.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff3a5ba-7bef-4d46-a2b5-638eac4ad2d8")
+		)
+		(pin "2"
+			(uuid "24de6174-f112-458f-bd12-6c376393a3b3")
+		)
+		(pin "3"
+			(uuid "02480243-f8dc-4403-8ed3-24908a432f72")
+		)
+		(instances
+			(project ""
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 73.66 0)
 		(unit 1)
@@ -3996,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 183.8452 66.04 0)
 			(effects
 				(font
@@ -4296,78 +4407,6 @@
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1085-3.3")
-		(at 171.45 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "842056bb-6b47-43ec-80e5-1fff0a57b627")
-		(property "Reference" "U4"
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1085-3.3"
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1085.pdf"
-			(at 171.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
-			(at 171.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a63d3767-2007-4cc1-b3d7-5632849ef549")
-		)
-		(pin "3"
-			(uuid "c1966b56-3273-41a4-8694-410ef8f5d744")
-		)
-		(pin "2"
-			(uuid "033c5ab1-a65f-40a8-acee-3fb2bb2cbc16")
-		)
-		(instances
-			(project ""
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4678,7 +4717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 109.22 0)
 			(effects
 				(font
@@ -4814,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 155.9052 121.92 0)
 			(effects
 				(font
@@ -5085,7 +5124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 53.34 0)
 			(effects
 				(font
