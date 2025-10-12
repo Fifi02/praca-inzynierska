@@ -3070,6 +3070,17 @@
 		)
 		(uuid "b81c79cd-700d-40e3-8d07-20a400d95cb0")
 	)
+	(text "link RJ45"
+		(exclude_from_sim no)
+		(at 38.1 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/mj3215-88-1-2-n/zlacza-rj/gct/")
+		)
+		(uuid "b8b5d31c-b0d8-4c92-8cc8-26523bcd2c57")
+	)
 	(text "wyświetlacz\n0100 A2 A1 A0 \nalbo na odwrót zależy czy wersja z A czy bez\nUWAGA GNIAZDO 90 stopni musi być\n\n"
 		(exclude_from_sim no)
 		(at 151.13 142.24 0)
@@ -3359,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 172.72 127)
+			(xy 153.67 127) (xy 172.72 127)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 172.72 127)
+			(xy 172.72 127) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 158.75 129.54)
+			(xy 153.67 129.54) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4019,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 158.75 124.46)
+			(xy 153.67 124.46) (xy 158.75 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4409,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 158.75 121.92)
+			(xy 153.67 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6149,7 +6160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 275.59 63.5 0)
 			(effects
 				(font
@@ -6228,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89005xx_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 146.05 172.72 0)
 			(effects
 				(font
@@ -6281,7 +6292,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 147.32 127 180)
+		(at 148.59 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6289,7 +6300,7 @@
 		(dnp no)
 		(uuid "3737b2d7-2501-418b-98ed-bf530c3ead69")
 		(property "Reference" "J4"
-			(at 148.59 115.57 0)
+			(at 149.86 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,15 +6308,15 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 148.59 118.11 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89004xx_1x04_P2.54mm_Horizontal"
-			(at 147.32 127 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 148.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 127 0)
+			(at 148.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6334,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 147.32 127 0)
+			(at 148.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +7848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-DevKitM-1"
+		(property "Footprint" "ESP32:MODULE_ESP32-DEVKITC"
 			(at 85.09 59.69 0)
 			(effects
 				(font
@@ -8256,7 +8267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89006xx_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 275.59 40.64 0)
 			(effects
 				(font

@@ -1780,7 +1780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_NCR_HHG1D-1"
+		(property "Footprint" "Relay_THT:RELAY_G3MB-202P"
 			(at 110.49 99.06 0)
 			(effects
 				(font

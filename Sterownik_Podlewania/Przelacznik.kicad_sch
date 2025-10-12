@@ -1208,7 +1208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Toggle_Switch:Toggle Switch Bootland 4.7mm"
 			(at 137.16 109.22 0)
 			(effects
 				(font
