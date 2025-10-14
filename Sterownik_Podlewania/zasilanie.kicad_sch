@@ -988,343 +988,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_DPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Push_DPDT"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Momentary Switch, dual pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_DPDT_0_0"
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Push_DPDT_0_1"
-				(polyline
-					(pts
-						(xy -1.524 5.334) (xy 2.3368 7.0612)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.874) (xy 0 6.096)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Push_DPDT_1_1"
-				(rectangle
-					(start -3.175 8.89)
-					(end 3.175 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2027,9 +1690,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ewentulanie ten"
+	(text "TME link\n"
 		(exclude_from_sim no)
-		(at 156.21 73.66 0)
+		(at 153.67 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2060,47 +1723,16 @@
 		)
 		(uuid "3de91090-c25f-43ca-897c-720093d6e8f6")
 	)
-	(text "TME"
+	(text "zewnętrzena zasilanie zaworów (przekaźników)\nna bootland jedno zdjęcie ze złączka z innym wyprowadzeniem pinów\nale dokumentacja i drugie zdjęcie ok\n\n"
 		(exclude_from_sim no)
-		(at 151.13 71.12 0)
+		(at 49.53 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(href "https://www.tme.eu/pl/details/jfw-330n_310-p15/kondensatory-foliowe-tht/jb-capacitors/")
-		)
-		(uuid "9b6ccd4c-c484-4f7d-b32e-1b9b3d7b1143")
-	)
-	(text "możlwość wybrania zasilania zaworów \nzasilanie zewnętrzne/zasilanie urządzenia (12V)"
-		(exclude_from_sim no)
-		(at 124.46 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "db008786-5edd-4e0d-9a67-b498c3b5f66f")
-	)
-	(text "zewnętrzena zasilanie zaworów (przekaźników)\n"
-		(exclude_from_sim no)
-		(at 66.04 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+			(href "https://botland.com.pl/przewody-i-zlacza-zasilajace/412-gniazdo-dc-55-x-25mm-do-druku-poziome-5904422329471.html")
 		)
 		(uuid "dc7b5320-fa63-40e1-a8f3-a6c0629d4ef3")
-	)
-	(text "podwójny SPDT "
-		(exclude_from_sim no)
-		(at 73.66 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://www.mouser.com/catalog/specsheets/grhls01224-1.pdf?_gl=1*1o6v3u6*_gcl_au*OTczOTAwMDA4LjE3NTk2NjE4Njg.*_ga*NjA2MjQ4NjI4LjE3NTk2NjE4Njg.*_ga_15W4STQT4T*czE3NTk4MzAyMzUkbzIkZzAkdDE3NTk4MzAyMzYkajU5JGwwJGgw")
-		)
-		(uuid "e726ca97-811f-4f8a-a913-d389a3af1af6")
 	)
 	(junction
 		(at 85.09 59.69)
@@ -2127,6 +1759,12 @@
 		(uuid "46eadda6-3045-4f7e-9956-521f81b96a36")
 	)
 	(junction
+		(at 109.22 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55a01f9e-652d-4823-947a-6d93c358c044")
+	)
+	(junction
 		(at 200.66 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2139,22 +1777,16 @@
 		(uuid "675d5722-7828-4f7b-babd-0221c906192e")
 	)
 	(junction
-		(at 96.52 137.16)
+		(at 109.22 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d0fcb24-fadf-4e52-be13-87dab6921e22")
+		(uuid "67c91949-560c-4419-8357-1f490f1b6abf")
 	)
 	(junction
 		(at 154.94 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cd1f6c0-2ec9-4926-a762-0c1ee5e54500")
-	)
-	(junction
-		(at 96.52 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90f09b75-85bb-4383-aab8-7f58090ac2e7")
 	)
 	(junction
 		(at 85.09 68.58)
@@ -2187,8 +1819,18 @@
 		(uuid "eda9df53-ea4f-4607-80ed-1e20d6c3bc2f")
 	)
 	(no_connect
-		(at 91.44 110.49)
-		(uuid "2b720b8b-c834-4049-b679-27c8aeddf202")
+		(at 92.71 123.19)
+		(uuid "9993c803-88a5-446a-b998-4e5bc6b576dc")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 109.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dd8305-bf51-4d7c-bfc7-4fba4c762a53")
 	)
 	(wire
 		(pts
@@ -2212,6 +1854,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 107.95) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb368f6-eac6-4ff6-a5b6-965363aa9a09")
+	)
+	(wire
+		(pts
 			(xy 171.45 127) (xy 182.88 127)
 		)
 		(stroke
@@ -2229,26 +1881,6 @@
 			(type default)
 		)
 		(uuid "14e15e9a-7d02-4c30-9a68-01181472f1ba")
-	)
-	(wire
-		(pts
-			(xy 105.41 137.16) (xy 96.52 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155bcdd1-d9dc-4c5f-95b8-5e134a290db6")
-	)
-	(wire
-		(pts
-			(xy 96.52 129.54) (xy 96.52 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17781c78-1577-4170-8830-d5d15329bcbb")
 	)
 	(wire
 		(pts
@@ -2292,26 +1924,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 149.86) (xy 96.52 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25e940f8-f07c-4fff-835c-d92205b3ecfa")
-	)
-	(wire
-		(pts
-			(xy 105.41 129.54) (xy 105.41 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2850c35f-efd0-4b3d-a01b-a385a0d0e59c")
-	)
-	(wire
-		(pts
 			(xy 127 60.96) (xy 116.84 60.96)
 		)
 		(stroke
@@ -2342,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 100.33) (xy 106.68 100.33)
+			(xy 100.33 113.03) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2412,16 +2024,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 144.78) (xy 50.8 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b91ab66-8ed1-4b61-894a-dd180fd15d1c")
-	)
-	(wire
-		(pts
 			(xy 96.52 57.15) (xy 96.52 59.69)
 		)
 		(stroke
@@ -2432,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c549269-b610-40d6-a50c-bd8e1fa7b28b")
+	)
+	(wire
+		(pts
 			(xy 154.94 97.79) (xy 154.94 109.22)
 		)
 		(stroke
@@ -2439,16 +2051,6 @@
 			(type default)
 		)
 		(uuid "5cd182d9-f126-440f-9d45-389c6050e4be")
-	)
-	(wire
-		(pts
-			(xy 76.2 139.7) (xy 73.66 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eb85c01-f5e4-4e72-a759-84b069583b83")
 	)
 	(wire
 		(pts
@@ -2492,26 +2094,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 147.32) (xy 96.52 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ca48e1-0df8-46cf-9ead-48ae6e2ad9da")
-	)
-	(wire
-		(pts
-			(xy 76.2 149.86) (xy 73.66 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "768fa8d0-8661-4a67-8882-a28a0d7fac33")
-	)
-	(wire
-		(pts
 			(xy 200.66 109.22) (xy 200.66 97.79)
 		)
 		(stroke
@@ -2542,16 +2124,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 137.16) (xy 96.52 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af6165b-004f-4235-97e3-26bb8326eeba")
-	)
-	(wire
-		(pts
 			(xy 154.94 109.22) (xy 163.83 109.22)
 		)
 		(stroke
@@ -2559,16 +2131,6 @@
 			(type default)
 		)
 		(uuid "90f6978c-f006-4e0c-8b27-d149cf21b58b")
-	)
-	(wire
-		(pts
-			(xy 96.52 147.32) (xy 86.36 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb3106e-0e03-49ac-9227-14a9bf4fa22b")
 	)
 	(wire
 		(pts
@@ -2602,6 +2164,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 113.03) (xy 119.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4610509-6909-4cc5-a5bf-683b1713286c")
+	)
+	(wire
+		(pts
 			(xy 208.28 53.34) (xy 200.66 53.34)
 		)
 		(stroke
@@ -2612,23 +2184,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 134.62) (xy 76.2 134.62)
+			(xy 109.22 118.11) (xy 100.33 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1c2adc9-824b-4a7f-9032-e7d98d6927ca")
-	)
-	(wire
-		(pts
-			(xy 50.8 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b212ec-a829-412f-b5c2-635230ccd107")
+		(uuid "c21936a3-52e3-4aa0-883d-70353d829899")
 	)
 	(wire
 		(pts
@@ -2672,6 +2234,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 109.22) (xy 119.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde29a96-87de-49df-a9a1-26f7bbbbe0d6")
+	)
+	(wire
+		(pts
 			(xy 85.09 59.69) (xy 96.52 59.69)
 		)
 		(stroke
@@ -2689,16 +2261,6 @@
 			(type default)
 		)
 		(uuid "d40bc072-d62a-43f5-888a-dd1ca33be31c")
-	)
-	(wire
-		(pts
-			(xy 99.06 105.41) (xy 101.6 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f14991-791a-410d-a332-379a601da191")
 	)
 	(wire
 		(pts
@@ -2742,26 +2304,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 134.62) (xy 40.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bcb492-7d51-4aff-9bb4-b9bedb0a0959")
-	)
-	(wire
-		(pts
-			(xy 96.52 149.86) (xy 118.11 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6dedca2-f691-49dc-a4a3-6087bcbeedb0")
-	)
-	(wire
-		(pts
 			(xy 85.09 62.23) (xy 85.09 68.58)
 		)
 		(stroke
@@ -2779,16 +2321,6 @@
 			(type default)
 		)
 		(uuid "ec4fecdd-4aa0-4b01-a8df-1d2fe679f449")
-	)
-	(wire
-		(pts
-			(xy 118.11 138.43) (xy 118.11 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef5634ed-fac7-4da4-a383-a35f3539433a")
 	)
 	(wire
 		(pts
@@ -2850,91 +2382,74 @@
 		)
 		(uuid "fccf49f6-b69a-4e4c-8a2b-91ec26271386")
 	)
-	(global_label "Vp_ext"
-		(shape input)
-		(at 106.68 100.33 0)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_MountingPin")
+		(at 92.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26be564c-b944-488f-887f-ce1d6b107753")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.7128 100.33 0)
+		(uuid "09ac78da-7759-46f6-bf54-3862a67de214")
+		(property "Reference" "J1"
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "Vp_ext"
-		(shape input)
-		(at 73.66 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "745ea458-b870-4714-bd99-509f540a26ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6272 149.86 0)
+		(property "Value" "Barrel_Jack_MountingPin"
+			(at 92.71 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "GND_Vp_ext"
-		(shape input)
-		(at 73.66 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98ac841f-8e4e-4eac-a992-60cae1cfa84c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7891 139.7 0)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
+			(at 93.98 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
-	)
-	(global_label "GND_Vp_ext"
-		(shape input)
-		(at 101.6 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5c7d44a-9aa2-4a20-99e5-926e880bd913")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.4709 105.41 0)
+		(property "Datasheet" "~"
+			(at 93.98 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20620a0c-4ddc-4fcb-906b-05987958c0c5")
+		)
+		(pin "1"
+			(uuid "7336fdc1-4b38-46be-83ab-f6df64015a94")
+		)
+		(pin "MP"
+			(uuid "cdb73f78-7389-49c3-80cc-862f7752b512")
+		)
+		(instances
+			(project ""
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
+					(reference "J1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3237,7 +2752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 155.9052 66.04 0)
 			(effects
 				(font
@@ -3274,6 +2789,138 @@
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22484acb-2183-4676-8198-18cfc80eb750")
+		(property "Reference" "#FLG09"
+			(at 119.38 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b228de9-76f8-41fe-94c7-68ff329dd6a2")
+		)
+		(instances
+			(project "Sterownik_Podlewania"
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 109.22 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27abed4b-0d42-40a1-9861-46da17039024")
+		(property "Reference" "#PWR03"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VP"
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5151da-4c40-467e-8b5d-19c7c43a997c")
+		)
+		(instances
+			(project "Sterownik_Podlewania"
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3483,72 +3130,6 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 118.11 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48057daf-353f-424b-90a6-1ed160d5a1d8")
-		(property "Reference" "#FLG05"
-			(at 118.11 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 118.11 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a3dc26f-e30a-4d3c-a59c-c59f4c680bfa")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
 		(at 96.52 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3745,72 +3326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c6e8eb-9760-4a97-9efd-0ea55fe9f435")
-		(property "Reference" "#PWR086"
-			(at 96.52 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_VP"
-			(at 96.52 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0d54c5e-7111-4086-99ab-fa6537c6f9c2")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
 		(at 171.45 109.22 0)
 		(unit 1)
@@ -3948,138 +3463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 105.41 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "665cac93-b61e-4d2d-905e-96199039fbf7")
-		(property "Reference" "#FLG03"
-			(at 105.41 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92105dc6-c404-4006-afff-05221fa6b2f5")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 50.8 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ad86b12-ad05-4a74-9461-19c26b4936a3")
-		(property "Reference" "#PWR083"
-			(at 50.8 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 50.8 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b0e0670-40c3-4602-b5e8-40390006e9a3")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 182.88 62.23 0)
 		(unit 1)
@@ -4144,6 +3527,72 @@
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78e943d9-0e31-4ba8-a2f9-1c32e8a7dc11")
+		(property "Reference" "#PWR04"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5606d339-ca3f-4c14-ad9e-66acb9e67698")
+		)
+		(instances
+			(project "Sterownik_Podlewania"
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4413,152 +3862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VPP")
-		(at 96.52 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "905b98f9-438c-4211-a8da-a387bb5e0dbc")
-		(property "Reference" "#PWR085"
-			(at 96.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VP"
-			(at 96.52 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 96.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2849740-4c14-4882-9ae1-f66917083947")
-		)
-		(instances
-			(project ""
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_DPDT")
-		(at 81.28 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a26fde5-64d8-4e6c-9367-fc41f8fe43a9")
-		(property "Reference" "SW7"
-			(at 81.28 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_DPDT"
-			(at 81.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Momentary Switch, dual pole double throw"
-			(at 81.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "61663d66-55fe-44da-9981-c08a6dee3de1")
-		)
-		(pin "4"
-			(uuid "a0c4710d-8bb5-4c83-8fa8-effe7a9016d0")
-		)
-		(pin "1"
-			(uuid "006ee678-5649-4dfa-a1b9-552ccc702d66")
-		)
-		(pin "3"
-			(uuid "edd90bda-34fb-4480-a3db-cf2f033e58fd")
-		)
-		(pin "2"
-			(uuid "2fca24f1-84cf-4ced-b5d5-988a70864d73")
-		)
-		(pin "6"
-			(uuid "ebee616d-1bd5-4c2b-b7e3-328abf244b57")
-		)
-		(instances
-			(project ""
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 69.85 62.23 180)
 		(unit 1)
@@ -4760,6 +4063,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6bed237-7dec-4234-b8f7-c98c34958486")
+		(property "Reference" "#FLG010"
+			(at 128.27 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3b11a6c-cec0-4a32-99d2-5c296636ab33")
+		)
+		(instances
+			(project "Sterownik_Podlewania"
+				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 85.09 48.26 0)
 		(unit 1)
@@ -4890,143 +4259,6 @@
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaa6b51b-e9b4-4084-9b45-2f759e12ac24")
-		(property "Reference" "#PWR084"
-			(at 40.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d960d2b4-569e-4375-b06a-15eab7500ac9")
-		)
-		(instances
-			(project ""
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 91.44 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1027221-5aec-4472-882d-4d13b04d8947")
-		(property "Reference" "J17"
-			(at 91.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_MountingPin"
-			(at 91.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 91.44 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1c6b0cd-c71e-4a9c-ab20-723d6917e796")
-		)
-		(pin "MP"
-			(uuid "939fe882-b686-4648-b6df-19953be2161a")
-		)
-		(pin "2"
-			(uuid "6327b398-7d4b-4737-ae96-c85e94088165")
-		)
-		(instances
-			(project "Sterownik_Podlewania"
-				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "J17")
 					(unit 1)
 				)
 			)
