@@ -3436,6 +3436,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c85a45d-f186-4ff8-8516-05a3f81911c3")
+	)
+	(wire
+		(pts
 			(xy 96.52 172.72) (xy 77.47 172.72)
 		)
 		(stroke
@@ -3593,16 +3603,6 @@
 			(type default)
 		)
 		(uuid "5a22b10a-abb6-465d-81ce-ef87c68b8213")
-	)
-	(wire
-		(pts
-			(xy 105.41 74.93) (xy 110.49 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f405d6c-49df-4ea9-801c-cf918001e77b")
 	)
 	(wire
 		(pts
@@ -3853,16 +3853,6 @@
 			(type default)
 		)
 		(uuid "8e37a659-39d4-414e-8bea-34f13fa7d4c0")
-	)
-	(wire
-		(pts
-			(xy 46.99 72.39) (xy 64.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e47f7cf-d444-45cb-bc82-610e30841f7d")
 	)
 	(wire
 		(pts
@@ -4283,6 +4273,16 @@
 			(type default)
 		)
 		(uuid "e0043fa7-32e2-4b25-96ba-a77a2d0ed68c")
+	)
+	(wire
+		(pts
+			(xy 64.77 72.39) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ea1299-b08a-4e04-bfdf-0df8fa9f9980")
 	)
 	(wire
 		(pts
@@ -4754,7 +4754,7 @@
 		)
 		(uuid "765b866e-83aa-436b-83ff-936b5ddf032d")
 	)
-	(label "SEN0193_WYJŚCIE"
+	(label "TRYB"
 		(at 110.49 74.93 0)
 		(effects
 			(font
@@ -4762,7 +4762,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7798403b-4cd7-49fe-88e0-1044ae4d8a0a")
+		(uuid "781c7efa-49d4-4d4a-a820-73ab7169300b")
 	)
 	(label "DS_WYJŚCIE"
 		(at 110.49 57.15 0)
@@ -4783,6 +4783,16 @@
 			(justify left bottom)
 		)
 		(uuid "8fddbfdc-ac60-4b81-b7ac-1f59b50c43d8")
+	)
+	(label "SEN0193_WYJŚCIE"
+		(at 54.61 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94c55f89-160d-40a0-a1ea-656696ba5651")
 	)
 	(label "Sekcja 4"
 		(at 110.49 59.69 0)
@@ -4834,26 +4844,6 @@
 		)
 		(uuid "a45ccb48-badf-4ec0-87bd-31fa05b958a3")
 	)
-	(label "WIFI"
-		(at 46.99 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a81724c0-b4f9-44e4-8975-742256be9c71")
-	)
-	(label "TRYB"
-		(at 110.49 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8a3d5ff-05b6-466f-9a29-12fe7cbe70e5")
-	)
 	(label "Sekcja 1_5V"
 		(at 270.51 152.4 0)
 		(effects
@@ -4873,6 +4863,16 @@
 			(justify left bottom)
 		)
 		(uuid "c08f95a2-a986-48c5-9a33-147663a96eb0")
+	)
+	(label "WIFI"
+		(at 110.49 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c32ec725-c3bd-4d8d-b10c-41360acc4da3")
 	)
 	(label "TRYB"
 		(at 274.32 93.98 0)
