@@ -1572,6 +1572,17 @@
 		)
 		(uuid "537bc552-eab9-43d6-b993-f12871791b5f")
 	)
+	(text "chyba taka dioda"
+		(exclude_from_sim no)
+		(at 72.39 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/sd1206s100s1r0/diody-schottky-smd/kyocera-avx/")
+		)
+		(uuid "b47da780-bfa3-4d71-9353-270a079bdabc")
+	)
 	(text "dokumentacja"
 		(exclude_from_sim no)
 		(at 137.16 83.82 0)
@@ -2277,7 +2288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 85.725 91.44 0)
 			(effects
 				(font

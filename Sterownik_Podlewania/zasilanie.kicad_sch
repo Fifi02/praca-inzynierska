@@ -1714,7 +1714,7 @@
 	)
 	(text "TME"
 		(exclude_from_sim no)
-		(at 194.31 58.42 0)
+		(at 199.39 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1722,6 +1722,17 @@
 			(href "https://www.tme.eu/pl/details/bat46w-dio/diody-schottky-smd/diotec-semiconductor/bat46w/")
 		)
 		(uuid "3de91090-c25f-43ca-897c-720093d6e8f6")
+	)
+	(text "chyba tą biorę\n"
+		(exclude_from_sim no)
+		(at 201.93 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.tme.eu/pl/details/sd1206s100s1r0/diody-schottky-smd/kyocera-avx/")
+		)
+		(uuid "7179341c-23f4-4361-94a5-d9b53f646fe1")
 	)
 	(text "zewnętrzena zasilanie zaworów (przekaźników)\nna bootland jedno zdjęcie ze złączka z innym wyprowadzeniem pinów\nale dokumentacja i drugie zdjęcie ok\n\n"
 		(exclude_from_sim no)
@@ -4020,7 +4031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 193.04 109.22 0)
 			(effects
 				(font
@@ -4356,7 +4367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 193.04 53.34 0)
 			(effects
 				(font
