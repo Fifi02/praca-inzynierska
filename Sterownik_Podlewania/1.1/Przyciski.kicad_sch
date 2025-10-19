@@ -1184,7 +1184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05952c3b-259a-464b-9e46-3947bea2b16e")
-		(property "Reference" "R26"
+		(property "Reference" "R22"
 			(at 104.14 77.4699 0)
 			(effects
 				(font
@@ -1247,7 +1247,7 @@
 		(instances
 			(project ""
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "R26")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1329,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1568f833-6129-4645-9103-a3cb90710c6d")
-		(property "Reference" "R28"
+		(property "Reference" "R18"
 			(at 198.12 77.4699 0)
 			(effects
 				(font
@@ -1392,7 +1392,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "R28")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1408,7 +1408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1632bf8b-35ce-4ac1-8d75-5e928af91c98")
-		(property "Reference" "R31"
+		(property "Reference" "R17"
 			(at 252.73 76.1999 0)
 			(effects
 				(font
@@ -1471,7 +1471,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "R31")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1487,7 +1487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "170a8f0d-124e-4b43-b279-145e9f76e11b")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 254 96.5199 0)
 			(effects
 				(font
@@ -1550,7 +1550,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbd8c1d-08bf-4212-8fde-0e7d7432a55a")
-		(property "Reference" "SW6"
+		(property "Reference" "SW4"
 			(at 238.76 80.01 0)
 			(effects
 				(font
@@ -1582,7 +1582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 238.76 82.55 0)
 			(effects
 				(font
@@ -1633,7 +1633,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "SW6")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1847,7 +1847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58e9390a-fcb0-40e3-8b34-fa1fcc40e556")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 184.15 81.28 0)
 			(effects
 				(font
@@ -1863,7 +1863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 184.15 83.82 0)
 			(effects
 				(font
@@ -1914,7 +1914,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "594e679e-2f8a-4d1d-837e-a16befe546a7")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 105.41 97.7899 0)
 			(effects
 				(font
@@ -1993,7 +1993,7 @@
 		(instances
 			(project ""
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2141,7 +2141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "929d01f9-672e-47a2-9808-feb595bbd132")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 199.39 97.7899 0)
 			(effects
 				(font
@@ -2204,7 +2204,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2286,7 +2286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9a6320c-fe72-4b92-8805-760f6922fa22")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 151.13 77.4699 0)
 			(effects
 				(font
@@ -2349,7 +2349,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2431,7 +2431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06fd17c-43bc-433c-9c66-9f959ec92f03")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 152.4 97.7899 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2510,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5f4ac62-321e-4ae4-bdc5-db943f984c06")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d45dfe-6d75-4fe9-8a6b-24abb193b0bf")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 90.17 81.28 0)
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -2660,7 +2660,7 @@
 		(instances
 			(project ""
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/98590924-e867-4033-87b1-a5aeee05e762"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
