@@ -2231,6 +2231,16 @@
 		)
 		(uuid "9b1fe4c6-a1b0-4e54-a77f-b38e87a1aff4")
 	)
+	(text "napięcie zasilania to PV bo napięcie na \nfeedbacku nie może być wyższe niż napięcie \nna wejściu przetwonircy (czyli PV)"
+		(exclude_from_sim no)
+		(at 90.17 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9a5a3c6-532a-4dfa-8a08-763259f73ec3")
+	)
 	(junction
 		(at 226.06 60.96)
 		(diameter 0)
@@ -2569,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 64.77 71.12)
+			(xy 64.77 63.5) (xy 64.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3417,73 +3427,6 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 64.77 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18a39e53-5e23-46db-ab97-c8aa4539fad1")
-		(property "Reference" "#PWR015"
-			(at 64.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vin"
-			(at 67.31 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd219326-b35e-4a77-923b-9784d6791579")
-		)
-		(instances
-			(project "Moduł_Zaworu"
-				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
 		(at 180.34 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4039,6 +3982,73 @@
 			(project "Moduł_Zaworu"
 				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PV_1")
+		(lib_id "power:PV")
+		(at 64.77 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439603b2-24d7-484b-b558-618a152b4eb3")
+		(property "Reference" "#PWR012"
+			(at 65.278 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PV"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec5a1993-6680-49c6-8bd4-5ebda6d6ec23")
+		)
+		(instances
+			(project "Moduł_Zaworu"
+				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

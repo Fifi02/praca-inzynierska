@@ -1695,6 +1695,16 @@
 		)
 		(uuid "0c46d153-5243-475a-92ae-32556c1ecc10")
 	)
+	(text "Enable Pin. Drive EN pin low to turn off the device, drive it\nhigh to turn it on. Floating is default hig\nprzetwornica MPPT\n"
+		(exclude_from_sim no)
+		(at 161.29 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58f4967e-d6ab-4e79-b98f-d9b7783f82f1")
+	)
 	(text "BH1750 BH1750FVI - czujnik światła I2C\n01011100"
 		(exclude_from_sim no)
 		(at 125.73 163.83 0)
@@ -2353,7 +2363,7 @@
 		)
 		(uuid "2c11fe61-a9b6-478d-93b7-aa71fa09d9b0")
 	)
-	(label "ON{slash}OFF"
+	(label "EN"
 		(at 128.27 58.42 0)
 		(effects
 			(font
