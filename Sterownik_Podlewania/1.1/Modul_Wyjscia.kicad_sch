@@ -810,7 +810,7 @@
 	)
 	(text "dokumentacja\n"
 		(exclude_from_sim no)
-		(at 57.15 69.85 0)
+		(at 78.74 113.03 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -821,7 +821,7 @@
 	)
 	(text "link"
 		(exclude_from_sim no)
-		(at 59.69 60.96 0)
+		(at 83.82 106.68 0)
 		(effects
 			(font
 				(size 2.032 2.032)

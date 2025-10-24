@@ -610,6 +610,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "wyjście 5V na zewnętrzny \nprzekaźnik załączający pompę"
+		(exclude_from_sim no)
+		(at 142.24 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03e33c4d-4b6c-46f4-82eb-7b369e8e0248")
+	)
 	(text "Vs - sygnał z esp załączający daną sekcję (podniesiony do 5V przez konwerter)\nWł/WYł - stan przełącznika (obsługa manualna)\n"
 		(exclude_from_sim no)
 		(at 95.25 27.94 0)
