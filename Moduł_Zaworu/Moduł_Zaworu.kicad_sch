@@ -346,6 +346,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1697,7 +1887,7 @@
 	)
 	(text "Enable Pin. Drive EN pin low to turn off the device, drive it\nhigh to turn it on. Floating is default hig\nprzetwornica MPPT\n"
 		(exclude_from_sim no)
-		(at 161.29 60.96 0)
+		(at 165.1 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1755,6 +1945,12 @@
 		(color 0 0 0 0)
 		(uuid "4751a128-a207-4f4b-bf78-e99067e8f392")
 	)
+	(junction
+		(at 130.81 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2440183-6d62-4edb-a9ec-06f53ad3c08f")
+	)
 	(no_connect
 		(at 120.65 68.58)
 		(uuid "08206d0d-eebd-4939-b7bb-669812dc835e")
@@ -1806,6 +2002,10 @@
 	(no_connect
 		(at 120.65 88.9)
 		(uuid "681c6bb1-b742-44f9-9d8f-8c79ec9f6278")
+	)
+	(no_connect
+		(at 120.65 76.2)
+		(uuid "79d8ece2-eb46-404d-8a4d-67ff9389f572")
 	)
 	(no_connect
 		(at 80.01 58.42)
@@ -1885,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 128.27 58.42)
+			(xy 120.65 58.42) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 156.21) (xy 146.05 133.35)
+			(xy 146.05 156.21) (xy 146.05 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2235,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 55.88) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0cf6d3-969b-4c87-876a-4192a67c6ce1")
+	)
+	(wire
+		(pts
 			(xy 62.23 143.51) (xy 93.98 143.51)
 		)
 		(stroke
@@ -2272,16 +2482,6 @@
 			(type default)
 		)
 		(uuid "d00fd902-4e10-4206-a0a3-c9e5114c754e")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 125.73 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0bd2b58-8180-45db-8b35-7105b65548a6")
 	)
 	(wire
 		(pts
@@ -2362,16 +2562,6 @@
 			(justify left bottom)
 		)
 		(uuid "2c11fe61-a9b6-478d-93b7-aa71fa09d9b0")
-	)
-	(label "EN"
-		(at 128.27 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35144760-22b4-4a02-8788-a8362c6a78ff")
 	)
 	(label "Czujnik ciśnienia output"
 		(at 72.39 66.04 180)
@@ -2578,17 +2768,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "Vs"
-		(shape input)
-		(at 125.73 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e971e046-c6cb-4167-ad43-a6ed9bcafce5")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3323,6 +3502,76 @@
 			(project "Moduł_Zaworu"
 				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 135.89 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bca81b7-5ad4-4cc9-b435-7c99c92982ee")
+		(property "Reference" "J8"
+			(at 138.43 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 138.43 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2955bae-4ead-48ca-a08f-670889197130")
+		)
+		(pin "2"
+			(uuid "f569a9e0-8be7-4784-bd2c-e39c86ddc050")
+		)
+		(instances
+			(project ""
+				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4243,7 +4492,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 146.05 133.35 0)
+		(at 146.05 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4252,7 +4501,7 @@
 		(fields_autoplaced yes)
 		(uuid "eac0b57c-fd71-47f6-9248-289d42be96c1")
 		(property "Reference" "#PWR08"
-			(at 146.05 137.16 0)
+			(at 146.05 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4510,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.05 128.27 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 133.35 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 133.35 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 133.35 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4826,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 62.23)
+		(at 213.36 27.94)
 		(size 31.75 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4593,7 +4842,7 @@
 		)
 		(uuid "94594dad-4c19-4a9b-a7b2-827222d80e0d")
 		(property "Sheetname" "zasilanie"
-			(at 227.33 61.5184 0)
+			(at 213.36 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4851,7 @@
 			)
 		)
 		(property "Sheetfile" "zasilanie.kicad_sch"
-			(at 227.33 92.0246 0)
+			(at 213.36 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
