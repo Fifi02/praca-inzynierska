@@ -1809,7 +1809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09ac78da-7759-46f6-bf54-3862a67de214")
-		(property "Reference" "J12"
+		(property "Reference" "J1"
 			(at 92.71 106.68 0)
 			(effects
 				(font
@@ -1864,7 +1864,7 @@
 		(instances
 			(project ""
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "J12")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2012,7 +2012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "214d4867-64a2-4080-b813-115017690e12")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 106.68 59.6899 0)
 			(effects
 				(font
@@ -2066,7 +2066,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2280,7 +2280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc306d2-c35e-495f-8d55-f79ce4335542")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 186.69 116.8399 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b4827b7-bd64-4d26-ac1b-26c397129c18")
-		(property "Reference" "U10"
+		(property "Reference" "U6"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -2602,7 +2602,7 @@
 		(instances
 			(project ""
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2751,7 +2751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "909e957b-b548-43de-a7c0-9954ecc9f5dc")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 120.65 59.6899 0)
 			(effects
 				(font
@@ -2805,7 +2805,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a86e2b04-9bef-45fa-90d1-423ea7e104f8")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 86.36 52.07 0)
 			(effects
 				(font
@@ -2873,7 +2873,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2889,7 +2889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be9a7b87-e126-45ed-9308-3cb0d52464f8")
-		(property "Reference" "D11"
+		(property "Reference" "D4"
 			(at 193.3575 102.87 0)
 			(effects
 				(font
@@ -2941,7 +2941,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "D11")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3023,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcade3b5-9b88-4d87-b5c9-16c5748eaaec")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 158.75 116.8399 0)
 			(effects
 				(font
@@ -3077,7 +3077,7 @@
 		(instances
 			(project "Sterownik_Podlewania"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe483bd0-c7bb-4d3f-b8ab-4fafa7a09254")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 131.1275 50.8 0)
 			(effects
 				(font
@@ -3145,7 +3145,7 @@
 		(instances
 			(project "Sterownik_Podlewania V1.1"
 				(path "/a66bdf1f-0e2a-4cc5-beb1-605f2a3b9885/73dd885a-a6d0-4e55-a40e-d99ff27ab8ee"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)

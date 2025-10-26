@@ -1238,7 +1238,7 @@
 		(uuid "57469adc-7048-4649-83fd-8a7877bad503")
 		(at 200.85 114.7725 -90)
 		(property "Reference" "U6"
-			(at -10.795 -31.75 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "585fa604-b97d-4b08-a7fc-12a94a9c3e8c")
 			(effects
@@ -11239,8 +11239,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "1.3,3V 3.SCL 5.3,3V 7.data\n2.SDA 4.GND 6.GND 8.3,3V	\n"
-		(at 184.25 82.25 90)
+	(gr_text "1.3,3V 2.SDA 3.SCL 4.GND\n5.3,3V 6.GND 7.cz. c. GND 8.5V	\n"
+		(at 184.25 81 90)
 		(layer "B.SilkS")
 		(uuid "3e75effb-cd70-4cec-b8ca-d83f7273456f")
 		(effects
@@ -11252,8 +11252,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "1.3,3V 3.SCL 5.3,3V 7.GND\n2.SDA 4.GND 6.SEN193 8.3,3V	\n"
-		(at 184 63 90)
+	(gr_text "1.3,3V 2.SDA 3.SCL 4.GND\n5.3,3V 6.SEN193 7.GND 8.3,3V	\n"
+		(at 184 61 90)
 		(layer "B.SilkS")
 		(uuid "87f12145-3af7-4c9f-b111-fb9f28bba055")
 		(effects
