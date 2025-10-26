@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|194962500|105493750|25ec3313-0d4e-4c3d-a6e4-0a510944fdf2|57469adc-7048-4649-83fd-8a7877bad503",
+          ""
+        ],
+        [
+          "courtyards_overlap|200425000|105493750|57469adc-7048-4649-83fd-8a7877bad503|61d63e1d-26f1-4f3c-97d1-5e337c93be45",
+          ""
+        ],
+        [
+          "courtyards_overlap|229127252|123572683|57469adc-7048-4649-83fd-8a7877bad503|d8cd4159-7a11-44bc-a6ee-ae3c9457b8ea",
+          ""
+        ],
+        [
+          "duplicate_footprints|172500000|126900000|9a4cbcaf-699d-40c9-aaf5-887aef3356dd|86c4335e-62c0-44c5-aabd-37144fb599bf",
+          ""
+        ],
+        [
+          "duplicate_footprints|172500000|59500000|356535ea-dc3b-4659-8dab-178ae1c9d90a|86c4335e-62c0-44c5-aabd-37144fb599bf",
+          ""
+        ],
+        [
+          "duplicate_footprints|229500000|127000000|d8cd4159-7a11-44bc-a6ee-ae3c9457b8ea|86c4335e-62c0-44c5-aabd-37144fb599bf",
+          ""
+        ],
+        [
+          "duplicate_footprints|229500000|59500000|79a2edfe-8bfa-4f18-969c-c7350c58c4da|86c4335e-62c0-44c5-aabd-37144fb599bf",
+          ""
+        ],
+        [
+          "silk_edge_clearance|167500000|65525000|53a971da-6cad-4bb7-b43c-cd90f5e41142|d7f72ebc-db57-40da-a28b-5aed21678f0d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|167500000|81045000|53a971da-6cad-4bb7-b43c-cd90f5e41142|c3d17b44-88c6-433b-a3ec-0b08f9e6890b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|167500000|82755000|53a971da-6cad-4bb7-b43c-cd90f5e41142|8402893a-0483-4d8e-afb4-1893fe48785b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|167500000|98275000|53a971da-6cad-4bb7-b43c-cd90f5e41142|5bf070cb-5310-4007-b3e4-181c3dbfc8e2",
+          ""
+        ],
+        [
+          "silk_over_copper|229320292|123800000|174b0f24-43a7-40f6-9301-e20d95a274f9|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
