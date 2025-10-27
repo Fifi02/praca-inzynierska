@@ -3492,6 +3492,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 214.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4756c957-205c-4aa8-9d39-c76724e3c5a3")
 		)
@@ -3554,6 +3563,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -4013,6 +4031,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 100.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73046940-3bea-40ff-bddb-8274f6bc5670")
 		)
@@ -4265,6 +4292,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3402ce7-69b4-4562-9ecb-9c7e79ad0de4")
 		)
@@ -4475,6 +4511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 204.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa9f36b3-a989-4a58-a7c9-de745d1d32fe")
 		)
@@ -4618,6 +4663,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 125.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ff694c14-bab4-4014-acb3-65a97b7f42f1")
 		)
@@ -4715,6 +4769,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 157.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "481ebdd3-ee04-49a1-9fc0-63a500b93c61")
 		)
@@ -4784,6 +4847,15 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 52.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 52.07 151.13 0)
 			(effects
 				(font
