@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.75,
-          "width": 1.25
+          "height": 0.8,
+          "width": 1.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,6 +65,10 @@
         ],
         [
           "courtyards_overlap|200425000|105493750|57469adc-7048-4649-83fd-8a7877bad503|61d63e1d-26f1-4f3c-97d1-5e337c93be45",
+          ""
+        ],
+        [
+          "courtyards_overlap|211245000|122600860|463f2f3a-ad59-4056-8b32-5d89f03d65ca|57469adc-7048-4649-83fd-8a7877bad503",
           ""
         ],
         [
@@ -564,7 +568,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerberki/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

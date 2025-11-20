@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "F:/Pulpit/AIR/7_semestr/praca inzynierska/Gerberki/")
 		)
 	)
 	(net 0 "")
@@ -20765,6 +20765,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 80.5 43 0)
+		(layer "F.SilkS")
+		(uuid "1ee0fac7-e4e5-489a-94a4-1d3c0697753d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BŁĄD2\n"
 		(at 205.4 90.8 0)
 		(layer "F.SilkS")
@@ -20879,25 +20892,25 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Filip Gajewski 2025\n"
-		(at 52.5 62.5 0)
+	(gr_text "©Filip Gajewski 2025\n"
+		(at 52 62.5 0)
 		(layer "F.SilkS")
 		(uuid "a927873b-e627-4f7b-9fb5-3603c5da7ff0")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.1 1.1)
 				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "Sterownik Podlewania\nPraca Inżynierska"
-		(at 51.45 59.8 0)
+	(gr_text "Sterownik Podlewania\n Praca Inżynierska"
+		(at 51 60 0)
 		(layer "F.SilkS")
 		(uuid "ab801dd8-ae8e-4565-adde-22ef7ca407c2")
 		(effects
 			(font
-				(size 4 1.4)
+				(size 4 1.35)
 				(thickness 0.15)
 			)
 			(justify left bottom)

@@ -4745,7 +4745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e4aee1-a0b8-403e-9561-63e720520508")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 93.98 39.3699 0)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 		(instances
 			(project "Moduł_Zaworu"
 				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5637,7 +5637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5748025e-ea6d-403f-8773-a144211e1c15")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 149.86 39.3699 0)
 			(effects
 				(font
@@ -5709,7 +5709,7 @@
 		(instances
 			(project "Moduł_Zaworu"
 				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6002,7 +6002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ccedd94-2948-443f-9894-5145970943d9")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 137.16 107.9499 0)
 			(effects
 				(font
@@ -6065,7 +6065,7 @@
 		(instances
 			(project "Moduł_Zaworu"
 				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7126,7 +7126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af831b18-04d7-439a-b60e-d9cc6556c3b1")
-		(property "Reference" "J12"
+		(property "Reference" "J1"
 			(at 44.45 40.6399 0)
 			(effects
 				(font
@@ -7198,7 +7198,7 @@
 		(instances
 			(project "Moduł_Zaworu"
 				(path "/8513fd68-b07b-4062-94bb-7b0327ec704f/94594dad-4c19-4a9b-a7b2-827222d80e0d"
-					(reference "J12")
+					(reference "J1")
 					(unit 1)
 				)
 			)

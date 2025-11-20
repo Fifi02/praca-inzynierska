@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "common.h": "c",
+        "task_leds.h": "c"
+    }
+}

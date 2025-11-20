@@ -9026,7 +9026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 147.32 171.4499 0)
 			(effects
 				(font
@@ -10928,7 +10928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20k"
 			(at 147.32 181.6099 0)
 			(effects
 				(font
@@ -11141,7 +11141,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f14c4da0-e73c-45c8-bc45-16436b9ea46f")
 		(property "Reference" "#PWR04"
 			(at 45.72 133.35 0)
@@ -11153,7 +11152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 132.08 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wykres temperatury</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      padding: 20px;
+    }
+    h1 { text-align: center; }
+
+    #chart-container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #bbb;
+    }
+
+    #cmdBox {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    #cmdInput {
+      padding: 8px;
+      width: 220px;
+      border-radius: 5px;
+      border: 1px solid #aaa;
+    }
+
+    #sendBtn {
+      padding: 8px 16px;
+      margin-left: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Wykres temperatury </h1>
+
+  <!-- NOWY BLOK Z OKIENKIEM TEKSTOWYM -->
+  <div id="cmdBox">
+    <input id="cmdInput" type="text" placeholder="Wpisz komendę...">
+    <button id="sendBtn" onclick="sendTextCommand()">Wyślij</button>
+  </div>
+
+  <div id="chart-container">
+    <canvas id="logChart"></canvas>
+  </div>
+
+  <script>
+    // ——————————————————————————————
+    // 1. Tworzymy wykres Chart.js
+    // ——————————————————————————————
+    const ctx = document.getElementById('logChart').getContext('2d');
+
+    const chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Wartość',
+          data: [],
+          borderColor: 'blue',
+          borderWidth: 2,
+          tension: 0.2
+        }]
+      },
+      options: {
+        responsive: true,
+        animation: false,
+        scales: {
+          y: { beginAtZero: false }
+        }
+      }
+    });
+
+    // ——————————————————————————————
+    // 2. Pobieranie historii logów z API
+    // ——————————————————————————————
+    async function loadLogs() {
+      const res = await fetch("http://158.180.49.234:8081/logs");
+      const data = await res.json();
+
+      data.reverse().forEach(log => {
+        chart.data.labels.push(log.id);
+        chart.data.datasets[0].data.push(parseFloat(log.value));
+      });
+
+      chart.update();
+    }
+
+    loadLogs();
+
+    // ——————————————————————————————
+    // 3. WebSocket — dane LIVE
+    // ——————————————————————————————
+    const ws = new WebSocket("ws://158.180.49.234:8080/web");
+
+    ws.onopen = () => {
+      console.log("WebSocket połączony");
+    };
+
+    ws.onmessage = (event) => {
+      console.log("WS message:", event.data);
+
+      let msg;
+      try {
+        msg = JSON.parse(event.data);
+      } catch {
+        console.warn("Niepoprawny JSON z WS:", event.data);
+        return;
+      }
+
+      if (msg.type === "new_value") {
+        const value = parseFloat(msg.value);
+        if (isNaN(value)) return;
+
+        const nextLabel = chart.data.labels.length > 0
+          ? chart.data.labels[chart.data.labels.length - 1] + 1
+          : 1;
+
+        chart.data.labels.push(nextLabel);
+        chart.data.datasets[0].data.push(value);
+        chart.update();
+      }
+    };
+
+    // ——————————————————————————————
+    // 4. Funkcja wysyłająca tekst
+    // ——————————————————————————————
+    function sendTextCommand() {
+      const text = document.getElementById("cmdInput").value.trim();
+
+      if (!text) {
+        console.warn("Pole jest puste — nie wysyłam.");
+        return;
+      }
+
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.send(text);
+        console.log("Wysłano:", text);
+      } else {
+        console.warn("WebSocket nie jest połączony");
+      }
+    }
+
+    // ENTER wysyła wiadomość
+    document.getElementById("cmdInput").addEventListener("keypress", (e) => {
+      if (e.key === "Enter") sendTextCommand();
+    });
+  </script>
+
+</body>
+</html>

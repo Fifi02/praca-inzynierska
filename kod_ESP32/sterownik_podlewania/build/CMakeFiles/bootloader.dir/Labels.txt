@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/CMakeFiles/bootloader
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/CMakeFiles/bootloader.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/CMakeFiles/bootloader-complete.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/Pulpit/AIR/7_semestr/praca_inzynierska/kod_ESP32/sterownik_podlewania/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,6 @@
+ssh -i "C:\Users\Admin\ssh-key-2025-11-16.key" opc@158.180.49.234
+mysql -u root -p
+scp -i "C:\Users\Admin\ssh-key-2025-11-16.key" F:\Pulpit\AIR\7_semestr\praca_inzynierska\kod_WS\server.js  opc@158.180.49.234:ws-server
+server.js
+sudo journalctl -u ws-server -n 50
+sudo systemctl restart ws-server
